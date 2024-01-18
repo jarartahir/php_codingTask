@@ -16,6 +16,8 @@
 - You can setup default DB configuration in <span style="color: green;">**.env**</span> file. Or follow the next point to setup multiple databases.
 - To setup the DB configurations goto <span style="color: green;">**config\database.php**</span> and add your database configuration there. 
 - Open the project and in terminal run this command to made migrations to your DB <span style="color: green;">**php artisan migrate**</span>.
+- To run test use this command <span style="color: green;">**php artisan test path/testdirectory/testfilename.php**</span>
+- To run the command file use this command <span style="color: green;">**php artisan app:data-processing path/datafiles/filename.php**</span>
 
 
 
