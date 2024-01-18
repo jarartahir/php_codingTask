@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Project Setup
+
+- Clone the Repository usig Git clone command
+- Open terminal and goto the path you clone the project 
+- Then run command <span style="color: green;">**composer install**</span>. It will install all the dependecies and packages from laravel.
+- When above command execution complete Run this command to make .env file <span style="color: green;">**cp .env.example .env**</span>.
+- You can setup default DB configuration in <span style="color: green;">**.env**</span> file. Or follow the next point to setup multiple databases.
+- To setup the DB configurations goto <span style="color: green;">**config\database.php**</span> and add your database configuration there. 
+- Open the project and in terminal run this command to made migrations to your DB <span style="color: green;">**php artisan migrate**</span>.
+
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
